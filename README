@@ -1,0 +1,7 @@
+Optional desktop file and icons for vanilla firefox browser from
+https://www.mozilla.org/firefox/download.
+
+1) Download the firefox tarball and unpack it to /opt.
+2) Build and install the firefox-opt package:
+   $ dpkg-buildpackage
+   $ sudo dpkg -i ../firefox-opt_<version>_all.deb
