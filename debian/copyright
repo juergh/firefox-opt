@@ -1,0 +1,37 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: Firefox
+Source: http://ftp.mozilla.org/pub/mozilla.org/firefox/
+Disclaimer: The original upstream tarball is modified from upstream by
+ removing a set of sourceless binary, non-free, and VCS-related files. You
+ can find a repack.py script in the debian directory doing this cleanup
+ using filtering data present in a source.filter file in the same directory.
+ If this file is incomplete, which I'm pretty sure is the case, because it's
+ difficult not to forget anything in this huge amount of data, please file
+ a bug or contact me.
+ Some licensing terms are not included verbatim in this file on purpose, for
+ terms that are available in a file in subdirectories that are not used to
+ build the binary packages.
+
+License: MPL-2.0
+ The complete text of the Mozilla Public License 2.0 can be found in
+ the `MPL-2.0' file in the same directory as this file.
+
+License: MPL-1.1
+ The complete text of the Mozilla Public License 1.1 can be found in
+ the `MPL-1.1' file in the same directory as this file.
+
+License: GPL-2
+ On Debian systems, the complete text of the GNU General Public
+ License 2 can be found in the file `/usr/share/common-licenses/GPL-2'.
+
+License: GPL-3
+ On Debian systems, the complete text of the GNU General Public
+ License 2 can be found in the file `/usr/share/common-licenses/GPL-3'.
+
+License: LGPL-2.1
+ On Debian systems, the complete text of the GNU Lesser General Public
+ License 2.1 can be found in the file `/usr/share/common-licenses/LGPL-2.1'.
+
+Files: *
+License: MPL-2.0
+Copyright: 1998-2010, Mozilla Project

@@ -1,0 +1,14 @@
+Source: firefox-opt
+Section: unknown
+Priority: optional
+Maintainer: Juerg Haefliger <juergh@protonmail.com>
+Build-Depends: debhelper-compat (= 13)
+Standards-Version: 4.5.1
+Homepage: https://github.com/juergh/firefox-opt
+Rules-Requires-Root: no
+
+Package: firefox-opt
+Architecture: all
+Depends: ${misc:Depends}
+Description: Desktop file and icons for vanilla firefox browser
+  Desktop file and icons for vanilla firefox browser.
